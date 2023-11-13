@@ -11,7 +11,7 @@ export default createGlobalStyle`
   *:after {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
-    cursor: none;
+   
     
   }
   
@@ -23,6 +23,7 @@ export default createGlobalStyle`
     padding: 100px;
     overflow: hidden;
     overflow-y: scroll;
+    background-color:#DCDCDC;
     box-sizing: content-box; 
   }
   
