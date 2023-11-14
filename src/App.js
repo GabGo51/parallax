@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Pure from "./Pure";
+import Projects from "./Projects";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<ReactSpring/>}/>
           <Route path="/scroll" element={<ReactScroll/>}/> 
           <Route path = '/pure' element={<Pure/>}/>
+          <Route path = '/projects' element={<Projects/>}/>
         </Routes>
         </ParallaxProvider>
       </Container>
